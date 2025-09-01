@@ -6,7 +6,7 @@ export const blogPosts = [
     description: "A beginner-friendly guide to understanding file-based routing in Next.js, with examples for dynamic routes and nested structures.",
     author: "Amir Hamza Ismail",
     categories: ["Next.js", "Web Development"],
-    featuredImage: "https://images.unsplash.com/photo-1581091215367-59ab6f0c2caa",
+    featuredImage: "https://miro.medium.com/v2/resize:fit:1000/0*dCkBR3Q3lkGMKeAh.png",
     status: "published",
     views: 320,
     likes: 25,
