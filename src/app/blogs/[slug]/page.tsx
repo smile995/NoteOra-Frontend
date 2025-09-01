@@ -1,13 +1,11 @@
-import { NextPage } from "next";
+const BlogDetails = async ({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) => {
+  console.log((await params).slug);
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
-
-const Page: NextPage<PageProps> = ({ params }) => {
-  return <div>{params.slug}</div>;
+  return <div>Blog Slug: </div>;
 };
 
-export default Page;
+export default BlogDetails;
